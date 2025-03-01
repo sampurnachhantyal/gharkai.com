@@ -73,14 +73,19 @@ a:hover {
 }
 
 .logo-img {
-    height: 32px;
-    width: auto;
-    margin-right: 0.5rem;
+    height: 60px;
+    width: 120px; /* Fixed width to make it more rectangular */
+    object-fit: contain; /* Ensures the logo fits within the dimensions while maintaining aspect ratio */
     vertical-align: middle;
+    filter: invert(60%) sepia(30%) saturate(1200%) hue-rotate(84deg) brightness(93%) contrast(95%);
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .footer-logo .logo-img {
-    height: 28px;
+    height: 60px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 .logo-text {
