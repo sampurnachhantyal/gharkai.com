@@ -8,11 +8,11 @@
 
 /* General Styles */
 :root {
-    --primary-color: #e74c3c;
-    --secondary-color: #34495e;
-    --accent-color: #2ecc71;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
+    --primary-color: #8BC8A3;
+    --secondary-color: #2D4241;
+    --accent-color: #5A9A8D;
+    --light-color: #D3D9D9;
+    --dark-color: #2D4241;
     --text-color: #333;
     --border-radius: 5px;
     --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -38,7 +38,7 @@ a {
 }
 
 a:hover {
-    color: #c0392b;
+    color: #5A9A8D;
 }
 
 .btn-primary {
@@ -47,8 +47,8 @@ a:hover {
 }
 
 .btn-primary:hover {
-    background-color: #c0392b;
-    border-color: #c0392b;
+    background-color: #5A9A8D;
+    border-color: #5A9A8D;
 }
 
 .section-title {
@@ -70,6 +70,17 @@ a:hover {
     font-size: 1.5rem;
     color: var(--primary-color);
     margin-right: 0.5rem;
+}
+
+.logo-img {
+    height: 32px;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+}
+
+.footer-logo .logo-img {
+    height: 28px;
 }
 
 .logo-text {
@@ -205,7 +216,7 @@ a:hover {
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    background-color: rgba(231, 76, 60, 0.1);
+    background-color: rgba(139, 200, 163, 0.1);
     border-radius: 50%;
 }
 
